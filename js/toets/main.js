@@ -1,24 +1,23 @@
-const fruit = ['Appel', 'Banaan'];
+const fruit = ['Appel', 'Banaan']; //array
 console.log(fruit.length);
 
-let l = 2;
-const m = 3;
+let l = 2; //number
+const m = 3; //number
 
 console.log(l);
-// expected output: 2
 
-let hege = ['Cecilie', 'Lone'];
-let stale = ['Emil', 'Tobias', 'Linu'];
-let children = hege.concat(stale);
+let hege = ['Cecilie', 'Lone']; //array
+let stale = ['Emil', 'Tobias', 'Linu']; //array
+let children = hege.concat(stale); //concat
 
-let str = 'Hoi ik ben Levi';
-let res = str.replace('Levi', 'Niemand');
+let str = 'Hoi ik ben Levi'; //string
+let res = str.replace('Levi', 'Niemand'); //replace
 
-let str1 = 'Hallo ik ben weer levi!';
-let res1 = str1.substring(1, 4);
+let str1 = 'Hallo ik ben weer levi!'; //string
+let res1 = str1.substring(1, 4); //sub the string
 
-let str2 = 'Dit is een javascript toets';
-let res2 = str2.split(" ");
+let str2 = 'Dit is een javascript toets'; //string
+let res2 = str2.split(" "); //replace string
 
 console.log(l = m + 1);
 console.log(l = l * m);
@@ -75,8 +74,8 @@ function johnnie() {
 // gebaseerd op een array van kleuren. 
 const items = document.getElementsByClassName('list-group-item');
 
-let num1 = 1;
-let num2 = 3;
+let num1 = 1; //number
+let num2 = 3; //number
 
 /*
  * Deze functie rekenen heeft 2 parameters
@@ -85,14 +84,14 @@ let num2 = 3;
  */
 
 function rekenen(a = 1, b = 1) {
-    const total = a + b;
+    const total = a + b; //total number
     alert(total);
 }
 rekenen();
 
 for (let i = 0; i < items.length; i++) {
     console.log('test' + i);
-    const kleuren = ['red', 'blue', 'green', 'yellow', 'purple', 'orange', ' burleywood'];
+    const kleuren = ['red', 'blue', 'green', 'yellow', 'purple', 'orange', ' burleywood']; //array
 
 
     items[i].style.backgroundColor = kleuren[i];
@@ -104,7 +103,7 @@ for (let i = 0; i < items.length; i++) {
 console.log(Math.random());
 
 function color() {
-    const i = math.random();
+    const i = math.random(); //random number
 }
 const button = document.getElementById('nee');
 
